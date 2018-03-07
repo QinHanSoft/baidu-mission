@@ -1,0 +1,48 @@
+*{
+    padding: 0; margin: 0;
+}
+.outside {
+    border: 1px solid #999;
+    width: 100%;
+    float: left;
+    background: #eee;
+}
+
+.left {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #999;
+    width: 160px;
+    float: left;
+    background: white;
+}
+
+.right {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #999;
+    width: 80px;
+    float: right;
+    background: white;
+}
+
+.container {
+    padding: 20px;
+    border: 1px solid #999;
+    margin: 20px 160px 20px 240px;
+    background: white;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+}
+
+.groupName {
+    vertical-align: top;
+}
+
+.container p {
+    font-size: 12px;
+    line-height: 1.8em;
+}
