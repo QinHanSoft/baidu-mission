@@ -43,7 +43,7 @@
     margin-right: 346px;
 }
 
-.inner div {
+.inner>div {
     border-right: #cccccc solid 3px;
     border-bottom: #cccccc solid 3px;
     background-color: #fff;
@@ -75,4 +75,71 @@
     color: #333;
     font-size: 12px;
     text-indent: 2em;
+}
+
+.article ul li {
+    list-style: none;
+    font-size: 12px;
+    text-indent: 2em;
+    color: #333;
+}
+
+#imgListArticle{
+    float: left;
+    margin: 0 0 20px 0;
+}
+
+.imgContainer {
+    width: 120px;
+    height: 100px;
+    padding: 10px 0;
+    border: 1px solid #333;
+    float: left;
+    margin: 15px;
+}
+
+.imgContainer p {
+    text-align: center;
+    text-indent: 0;
+}
+
+.imgBox{
+    width: 100px;
+    height: 70px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.clearBox {
+    clear: both;
+}
+
+ol li {
+    list-style-position: inside;
+    font-size: 12px;
+    text-indent: 2em;
+    color: #333;
+}
+
+.tableBox {
+    width: 100%;
+}
+
+.tableBox th{
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    text-align: left;
+    padding: 5px;
+}
+
+.tableBox td {
+    font-size: 12px;
+    color: #333;
+    padding: 5px;
+}
+
+.tableTotal td{
+    background-color: #cccccc;
 }
