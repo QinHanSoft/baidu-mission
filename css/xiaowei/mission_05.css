@@ -1,16 +1,17 @@
-*{
-    padding: 0; margin: 0;
+* {
+    padding: 0;
+    margin: 0;
 }
 
 .headBox {
     width: 100%;
-    height: 100px;
+    height: 80px;
     background-color: #333;
 }
 
 .footBox {
     width: 100%;
-    height: 200px;
+    height: 60px;
     background-color: #333;
     clear: both;
 }
@@ -31,19 +32,19 @@
 .container .menu {
     background-color: #fff;
     float: left;
-    width: 300px;
+    width: 350px;
     margin-top: 20px;
-    margin-left: -326px;
+    margin-left: -396px;
     border-right: #cccccc solid 3px;
     border-bottom: #cccccc solid 3px;
 }
 
 .inner {
     background-color: #f3f3f3;
-    margin-right: 346px;
+    margin-right: 416px;
 }
 
-.inner>div {
+.inner > div {
     border-right: #cccccc solid 3px;
     border-bottom: #cccccc solid 3px;
     background-color: #fff;
@@ -84,7 +85,7 @@
     color: #333;
 }
 
-#imgListArticle{
+#imgListArticle {
     float: left;
     margin: 0 0 20px 0;
 }
@@ -103,7 +104,7 @@
     text-indent: 0;
 }
 
-.imgBox{
+.imgBox {
     width: 100px;
     height: 70px;
     display: block;
@@ -126,7 +127,7 @@ ol li {
     width: 100%;
 }
 
-.tableBox th{
+.tableBox th {
     background-color: black;
     color: white;
     font-size: 12px;
@@ -140,6 +141,114 @@ ol li {
     padding: 5px;
 }
 
-.tableTotal td{
+.tableTotal td {
     background-color: #cccccc;
+}
+
+.menu {
+    padding: 20px;
+}
+
+.menu h4 {
+    line-height: 40px;
+    border-left: 3px solid #888888;
+    padding: 0 0 0 15px;
+}
+
+.sidebar-key {
+    display: inline-block;
+    line-height: 20px;
+    width: 30%;
+    font-size: 12px;
+    margin: 10px 0;
+    color: #333;
+    text-align: right;
+    float: left;
+}
+
+.sidebar-value {
+    width: 50%;
+    margin: 10px 0 10px 2%;
+    line-height: 20px;
+    float: left;
+}
+
+.sidebar-remark {
+    float: left;
+    font-size: 12px;
+    color: #888;
+    margin-left: 32%;
+    line-height: 30px;
+}
+
+.sidebar-radio {
+    float: left;
+    width: 15%;
+    font-size: 12px;
+    margin: 10px 0 10px 2%;
+}
+
+.sidebar-select {
+    float: left;
+    width: 15%;
+    margin: 10px 0 10px 2%;
+}
+
+.sidebar-textarea {
+    width: 66%;
+    float: left;
+    height: 80px;
+    margin: 10px 0 10px 2%;
+    resize: none;
+}
+
+.short-key {
+    clear: left;
+}
+
+.sidebar-submit {
+    clear: left;
+    width: 100%;
+    height: 40px;
+    background-color: #42f;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+}
+
+.headBox ul {
+    float: right;
+    height: 100%;
+}
+
+.headBox ul li {
+    float: left;
+    position: relative;
+    height: 30px;
+    top:50%;
+    margin: -15px 0 0 0;
+    line-height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px;
+    list-style-position: inside;
+    color: black;
+    font-size: 12px;
+}
+
+.headBox ul li a {
+    color: white;
+}
+
+.headBox ul li a:visited {
+    color: #888;
+}
+
+.copyright {
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
 }

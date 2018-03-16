@@ -7,7 +7,15 @@
 </head>
 <body>
 
-<div class="headBox"></div>
+<div class="headBox">
+    <img src="http://placehold.it/200x50" alt="baidu">
+    <ul>
+        <li><a href="http://ife.baidu.com/course/detail/id/90">导航链接一</a></li>
+        <li><a href="http://ife.baidu.com/course/detail/id/92">导航链接二</a></li>
+        <li><a href="http://ife.baidu.com/course/detail/id/94">导航链接三</a></li>
+        <li><a href="http://ife.baidu.com/course/detail/id/95">导航链接四</a></li>
+    </ul>
+</div>
 <div class="container">
     <div class="left">
         <div class="inner">
@@ -143,10 +151,57 @@
         </div>
     </div>
     <div class="menu">
-        右边
+        <h4>这里以后是一个侧栏，这里是侧栏的标题</h4>
+        <form>
+            <div>
+                <label class="sidebar-key">请输入邮箱地址</label>
+                <input class="sidebar-value" type="text" name="email" placeholder="这是一个文本输入框"/>
+                <span class="sidebar-remark">邮箱地址请按要求格式输入</span>
+            </div>
+            <div>
+                <label class="sidebar-key">请输入密码</label>
+                <input class="sidebar-value" type="password" name="password"/>
+            </div>
+            <div>
+                <label class="sidebar-key">请重复输入密码</label>
+                <input class="sidebar-value" type="password" name="confirm-password"/>
+                <span class="sidebar-remark">密码为6-16位英文数字</span>
+            </div>
+            <div>
+                <label class="sidebar-key short-key">性别</label>
+                <label class="sidebar-radio"><input type="radio" name="gender" checked="checked">男</label>
+                <label class="sidebar-radio"><input type="radio" name="gender">女</label>
+            </div>
+            <div>
+                <label class="sidebar-key short-key">城市</label>
+                <select class="sidebar-select">
+                    <option>北京</option>
+                    <option>天津</option>
+                    <option>河北</option>
+                    <option>山东</option>
+                    <option>江苏</option>
+                    <option>上海</option>
+                </select>
+            </div>
+            <div>
+                <label class="sidebar-key short-key">爱好</label>
+                <label class="sidebar-radio"><input type="checkbox" name="hobby" id="sport">运动</label>
+                <label class="sidebar-radio"><input type="checkbox" name="hobby" id="art">艺术</label>
+                <label class="sidebar-radio"><input type="checkbox" name="hobby" id="science">科学</label>
+            </div>
+            <div>
+                <label class="sidebar-key short-key">个人描述</label>
+                <textarea class="sidebar-textarea">这是一个多行输入框，输入您的个人描述</textarea>
+            </div>
+            <div>
+                <input class="sidebar-submit" type="submit" value="确认提交">
+            </div>
+        </form>
     </div>
 </div>
-<div class="footBox"></div>
+<div class="footBox">
+    <p class="copyright">版权所有©</p>
+</div>
 
 </body>
 </html>
